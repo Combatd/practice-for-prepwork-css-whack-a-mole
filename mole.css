@@ -3,7 +3,7 @@
   height: 241px;
   position: relative;
   width: 320px;
-  /*display: inline-block;*/
+  display: inline-block;
   overflow: hidden;
 }
 
@@ -14,12 +14,30 @@
   left: 55px;
 }
 
+.wgs__mole-head--hidden {
+  margin-top: 241px;
+  height: 178px;
+  position: absolute;
+  width: 188px;
+  left: 55px;
+  transition: margin-top 0.25s;
+}
+
+/* This is the dirt pile */
+/* 640 / 2 = 320 width */
 .wgs__mole-hill {
   height: 110px;
-  position: absolute;
+  position: absolute; 
   width: 320px;
   bottom: 0px; 
 }
+
+.pf {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
 
 
 
