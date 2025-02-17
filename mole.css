@@ -1,4 +1,25 @@
 /* Your code here */
+.wgs {
+  height: 241px;
+  position: relative;
+  width: 320px;
+  /*display: inline-block;*/
+  overflow: hidden;
+}
+
+.wgs__mole-head {
+  height: 178px;
+  position: absolute;
+  width: 188px;
+  left: 55px;
+}
+
+.wgs__mole-hill {
+  height: 110px;
+  position: absolute;
+  width: 320px;
+  bottom: 0px; 
+}
 
 
 
