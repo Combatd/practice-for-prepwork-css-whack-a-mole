@@ -32,6 +32,15 @@
   bottom: 0px; 
 }
 
+.wgs__mole-head--hidden {
+  margin-top: 241px;
+  height: 178px;
+  position: absolute;
+  width: 188px;
+  left: 55px;
+  transition: margin-top 0.25s;
+}
+
 .pf {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
